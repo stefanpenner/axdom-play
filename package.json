@@ -8,7 +8,8 @@
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "test": "mocha *.test.js"
+    "test": "mocha *.test.js",
+    "test:debug": "mocha debug *.test.js"
   },
   "dependencies": {
     "chrome-debugging-client": "^1.0.1"
