@@ -42,6 +42,6 @@ it('our first test', async function() {
     await page.send('Accessibility.enable');
 
     const data = await page.send('Accessibility.getFullAXTree');
-    expect(data.nodes.length).to.equal(17);
+    expect(data.nodes.length).to.equal(16);
   });
 });

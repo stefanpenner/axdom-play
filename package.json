@@ -5,7 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "selenium-webdriver": "4.0.0-alpha.4"
   },
   "scripts": {
     "test": "mocha *.test.js",
