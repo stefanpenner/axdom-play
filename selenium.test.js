@@ -1,5 +1,6 @@
 const { Builder } = require('selenium-webdriver');
 const { expect } = require('chai');
+const { Command } = require('selenium-webdriver/lib/command');
 const chrome = require('selenium-webdriver/chrome');
 
 async function run(url, callback) {
